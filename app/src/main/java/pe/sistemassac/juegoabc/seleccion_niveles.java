@@ -39,4 +39,9 @@ public class seleccion_niveles extends AppCompatActivity {
             startActivity(intent3);
         }
     }
+
+//    protected void onPause() {
+//        super.onPause();
+//        finish();
+//    }
 }
