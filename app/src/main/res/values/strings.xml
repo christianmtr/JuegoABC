@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JuegoABC</string>
+
+    <string name="title_activity_seleccion_niveles">Selección de niveles</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_nivel1">Paso a paso</string>
+
+    <string name="title_activity_nivel2">Nivel intermedio</string>
+
+    <string name="title_activity_nivel3">Nivel avanzado</string>
+
+    <string name="title_activity_resultados">Resultados</string>
+</resources>
