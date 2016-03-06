@@ -8,43 +8,255 @@
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-    <TextView
-        android:id="@+id/fullscreen_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/nivel1"
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="bold" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
-    <FrameLayout
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegresar"
+        android:id="@+id/btnRegresar"
+        android:layout_gravity="right|top"
+        android:onClick="onClick_Regresar" />
+
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        android:layout_gravity="left|center_vertical">
 
-        <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            style="?metaButtonBarStyle"
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
+            android:layout_height="match_parent"></TableRow>
 
-        </LinearLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btnRegresar"
-            android:id="@+id/btnRegresar"
-            android:layout_gravity="right|top"
-            android:onClick="onClick_Regresar" />
-    </FrameLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra1"
+                android:layout_column="1"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra2"
+                android:layout_column="2"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra3"
+                android:layout_column="3"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra4"
+                android:layout_column="4"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra5"
+                android:layout_column="5"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra6"
+                android:layout_column="6"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra7"
+                android:layout_column="7"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra8"
+                android:layout_column="8"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tvLetra9"
+                android:layout_column="9"
+                android:textSize="34px"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/btnLetraA"
+                android:layout_column="1"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/btnLetraB"
+                android:layout_column="2"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:id="@+id/btnLetraC"
+                android:layout_column="3"
+                android:onClick="onClickLetras" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:id="@+id/btnLetraD"
+                android:layout_column="1"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:id="@+id/btnLetraE"
+                android:layout_column="2"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:id="@+id/btnLetraF"
+                android:layout_column="3"
+                android:onClick="onClickLetras" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:id="@+id/btnLetraG"
+                android:layout_column="1"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:id="@+id/btnLetraH"
+                android:layout_column="2"
+                android:onClick="onClickLetras" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/btnLetraI"
+                android:layout_column="3"
+                android:onClick="onClickLetras" />
+        </TableRow>
+    </TableLayout>
 
 </FrameLayout>

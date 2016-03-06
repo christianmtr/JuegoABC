@@ -5,7 +5,7 @@
     <string name="nivel1">Nivel\nPaso a paso</string>
     <string name="nivel2">Nivel\nIntermedio</string>
     <string name="nivel3">Nivel\nAvanzado</string>
-    <string name="resultado">Resultados\n</string>
+    <string name="resultado">Resultados</string>
 
     <string name="title_activity_nivel1">Nivel paso a paso</string>
 
